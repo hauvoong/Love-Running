@@ -200,6 +200,14 @@ hr {
     line-height: 0;
 }
 
+/* Sign Up Page */
+#signup {
+    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    background-position: 75%;
+    flex-grow: 1
+    padding:20px 10px;
+}
+
 /* Footer */
 #social-networks {
     text-align:center;
@@ -221,6 +229,7 @@ hr {
         column-count: 2;
         column-gap: 0;
     }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
